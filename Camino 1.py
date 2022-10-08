@@ -30,6 +30,7 @@ def caminoCorto(diccionario, origen, destino):
         actual=cola1.desencolar()
         if actual.visitados[-1]==destino and actual.length<minimo.length:
             minimo=actual
+            continue
         if actual.length>minimo.length:
             continue
         for i in diccionario[actual.visitados[-1]]:

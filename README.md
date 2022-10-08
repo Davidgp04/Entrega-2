@@ -1,4 +1,4 @@
-# Entrega-2
+# Entrega-2 (El archivo fue creado y editado después de la fecha de entrega)
 Integrantes:
 David Grisales Posada
 Miguel Adrián Pulido Marín

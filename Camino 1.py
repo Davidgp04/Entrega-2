@@ -1,6 +1,6 @@
 import sys
 
-from Jupyter import diccionario
+from Dataframe import diccionario
 class Cola:
     def __init__(self):
         self.datos=list()
@@ -9,10 +9,7 @@ class Cola:
     def desencolar(self):
         return self.datos.pop(0)
     def es_vacia(self):
-        if len(self.datos)==0:
-            return True
-        else:
-            return False
+        return len(self.datos)==0
 class Recorrido:
     def __init__(self,visitados,length):
         self.visitados=[]
